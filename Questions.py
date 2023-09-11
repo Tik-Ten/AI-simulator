@@ -7,9 +7,11 @@
 #     return Favorite_animal + "-" + Favorite_fruit + "-" + First_Name + "-" + Last_Name + "-" + Favorite_food
 
 class Questions:
-    def __init__(self, First_Name, Last_Name, Favorite_animal, Favorite_fruit, Favorite_food):
+    def __init__(self, First_Name, Last_Name, Favorite_animal, Favorite_fruit, Favorite_food, USERNAME, PASSWORD):
         self.First_Name = First_Name
         self.Last_Name = Last_Name
         self.Favorite_animal = Favorite_animal
         self.Favorite_fruit = Favorite_fruit
         self.Favorite_food = Favorite_food
+        self.USERNAME = USERNAME
+        self.PASSWORD = PASSWORD

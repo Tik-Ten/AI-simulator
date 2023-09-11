@@ -10,8 +10,8 @@ def Create_account():
     Favorite_food = input("What's your favorite food(example: It's -Your favorite food-)? ")
 
     Information = Questions(
-        USERNAME=USERNAME
-        PASSWORD=PASSWORD
+        USERNAME=USERNAME,
+        PASSWORD=PASSWORD,
         First_Name=First_Name, 
         Last_Name=Last_Name, 
         Favorite_animal=Favorite_animal, 

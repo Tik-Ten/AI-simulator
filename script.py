@@ -8,5 +8,11 @@ cursor = connection.cursor()
 
 cursor.execute("INSERT INTO Information VALUES ('Farbod Parkhooi', 'Farbod@1390')")
 
-rows = cursor.execute("SELECT usrnam, paswrd FROM Information").fetchall()
-print(rows)
+Information = cursor.execute("SELECT usrnam, paswrd FROM Information").fetchall()
+
+Data = {
+    "USERNAME":Information[0][0],
+    "PASSWORD":Information[0][1]
+}
+
+print(Data)

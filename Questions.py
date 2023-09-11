@@ -13,5 +13,3 @@ class Questions:
         self.Favorite_animal = Favorite_animal
         self.Favorite_fruit = Favorite_fruit
         self.Favorite_food = Favorite_food
-    def __str__(self):
-        return self.First_Name + "|-|" + self.Last_Name + "|-|" + self.Favorite_animal + "|-|" + self.Favorite_fruit + "|-|" + self.Favorite_food

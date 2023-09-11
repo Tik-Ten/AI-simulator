@@ -1,2 +1,2 @@
 # AI-simulator
-I want create a robot for learning a person favorites
+I want to create a robot for learning a person information

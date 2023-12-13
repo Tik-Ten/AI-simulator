@@ -1,0 +1,7 @@
+First name
+Last name
+Favorite animal
+Favorite fruit
+Favorite food
+Favorite sport
+Age

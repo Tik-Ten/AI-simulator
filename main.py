@@ -1,13 +1,22 @@
 from AI_simulator import AI 
-from tkinter import Tk, Label, Button
+from tkinter import Tk, Label, Button, Entry
 Data = AI("Farbod", "Parkhooi", "Cat", "Banana", "Pizza", "swimming", "12", "Female") # Write your information
 root = Tk()
-gender_lable = Label(root, text=f"announcer gender(now:{Data.announcer_gender})", width=25)
-gender_lable.place(x=0, y=0)
 root.title("Farbod AI")
 root.geometry("800x100")
+root.resizable(False, False)
+gender_lable = Label(root, text=f"announcer gender(now:{Data.announcer_gender})", width=25)
+gender_lable.place(x=0, y=0)
 def Start():
     root.destroy()
+    window = Tk()
+    window.title("Farbod AI")
+    window.geometry("800x500")
+    window.resizable(False, False)
+    Label(window, text="What do you want from database?").pack()
+    Want = Entry(window, width=50, bg="gray", fg="black")
+    Want.pack()
+    Button(window, width=25, text="")
 def Change():
     gender_lable.destroy()
     try: genderlable.destroy()
